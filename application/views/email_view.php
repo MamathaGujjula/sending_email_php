@@ -7,7 +7,7 @@
     <body>
         <div class="container" style="margin-left:400px;">
         <div class="col-md-6">
-            <h3>sending email</h3>
+            <h3>Sending Email </h3>
 
             <?php if($error=$this->session->flashdata('msg')){?>
                 <p style="color:green;"><strong>success</strong><?php echo $error;?></p>
