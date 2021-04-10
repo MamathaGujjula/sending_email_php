@@ -12,7 +12,7 @@
            
             $to = $this->input->post('from');
             $subject = "sending mail through codegniter";
-            $from="mamatha.vita@gmail.com";
+            $from="example@gmail.com";
 
             $content = $this->input->post('message');
 
@@ -20,8 +20,8 @@
                 'protocol' => 'smtp', // 'mail', 'sendmail', or 'smtp'
                 'smtp_host' => 'smtp.gmail.com', 
                 'smtp_port' => 465,
-                'smtp_user' => 'mamatha.vita@gmail.com',
-                'smtp_pass' => 'mamathag540',
+                'smtp_user' => 'example@gmail.com',
+                'smtp_pass' => 'xxxxx',
                 'smtp_crypto' => 'ssl', //can be 'ssl' or 'tls' for example
                 'mailtype' => 'text', //plaintext 'text' mails or 'html'
                 'smtp_timeout' => '60', //in seconds
